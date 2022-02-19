@@ -17,7 +17,7 @@
     $: {
         if (typeof gtag !== "undefined"){
             window.gtag("config", key, {
-                page_path: $page.url.path,
+                page_path: page?.url?.path,
             });
         }
     }
